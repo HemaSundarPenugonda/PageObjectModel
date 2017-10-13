@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose='1' parallel='tests' thread-count='80'>
+    <listeners>
+        <listener class-name="com.amdocs.nlt.listeners.TestListener"/>
+        <listener class-name="com.amdocs.nlt.listeners.CustomEmailableReport"/>
+        <!--<listener class-name="com.amdocs.nlt.listeners.EmailableReporter2"/>-->
+    </listeners>
+
+    <!--**************************************************************************-->
+    <!--Ament Tests-->
+    <!--**************************************************************************-->
+    <test name="Fibre takeover amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.FibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP RRR amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.ManageTpRRRTest"/>
+        </classes>
+    </test>
+
+    <test name="Dark fibre amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.FibreWithOutServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="manage TP NBAP amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.ManageTP_NBAPTest"/>
+        </classes>
+    </test>
+
+    <test name="Enhanced fibre takeover amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.EnhancedFibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Resi Amend   test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.ResidentialEndUserConnectionEndUserAmendTest"/>
+        </classes>
+    </test>
+    
+    <test name="Schedule8  Amend   test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.BuildingMDFRoomToResidentialPremiseConnectionAmendTest"/>
+        </classes>
+    </test>
+
+    <!--**************************************************************************-->
+    <!--Cancel Tests-->
+    <!--**************************************************************************-->
+    <test name="Enhanced fibre takeover cancel test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.EnhancedFibreTakeoverServiceCancel"/>
+        </classes>
+    </test>
+
+    <test name="Fibre takeover service cancel test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.FibreTakeoverServiceCancel"/>
+        </classes>
+    </test>
+
+    <test name="Dark fibre cancel test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.FibreWithoutServiceCancel"/>
+        </classes>
+    </test>
+
+    <test name="Cancel test Manage Tp RRR">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ManageTpRRRServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Canceltestmdfttofttb">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.BuildingMDFRoomToFTTBNodeConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="nonresi reclassify ">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NonResiReclassifyCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="mdfnonresi reclassify ">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.MdfNonResiReclassifyCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Canceltestmdftononresi">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.BuildingMDFRoomToNonResidentialPremiseConnectionPageCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Canceltestmdfresi">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.BuildingMDFRoomToResidentialConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestCotoMdf">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.CoToBuildingMdfConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestCotoCo">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.CoToCoConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestCotoNbapDp">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.COToNBADPConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestFttbToDp">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.FTTBNodeToDPConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestNbap">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NBAPConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestNonResi">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NonResidentailEndUserConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestResi">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ResidentailEndUserConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CanceltestNbapDpToNbapTp">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NBAPDPtoNBAPTPConnectionCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP Resi Cancel Test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ResidentailEndUserConnectionManageTPServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CancelresiTechnologyChnage">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ResiTechnologyChangeRCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CancelNonresiTechnologyChnage">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NonResiTechnologyChangeRCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP Non Resi Cancel Test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NonResidentailEndUserConnectionManageTPServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP BuildingMDFRoomToResidentialConnection Cancel Test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.BuildingMDFRoomToResidentialConnectionManageTPServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CancelNbapTechnologyChnage">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NbapTechnologyChangeRCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP BuildingMDFRoomTo Non ResidentialConnection Cancel Test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.BuildingMDFRoomToNonResidentialConnectionManageTPServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage Tp By Address Cancel Test">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ManageTpByAddressCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="MdfResidentialRelocationServiceCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.MdfResidentialRelocationServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="ManageTP_NBAPCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ManageTP_NBAPCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="MdfNonResidentialRelocationServiceCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.MdfNonResidentialRelocationServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="ResidentialRelocationServiceCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.ResidentialRelocationServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="RequestForManageTPbyCoOrdinateSystemServiceCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.RequestForManageTPbyCoOrdinateSystemServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="NonResidentialRelocationServiceCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.NonResidentialRelocationServiceCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="KIVCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.canceltest.KIVCancelTest"/>
+        </classes>
+    </test>
+
+    <!--**************************************************************************-->
+    <!--Mislenious Tests-->
+    <!--**************************************************************************-->
+    <test name="Manage FAQ  test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.ManageFaqTest"/>
+        </classes>
+    </test>
+
+    <test name="Reclassification service resi  test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.ResidentialReclassificationAsNonResidentialServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Dark fiber service ">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.RequestForFiberWithputServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="CotoCO test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.CoToCoConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="CotoMdfrelated test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.CoToMdfConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="Resirelated test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.ResidentialEndUserConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="RLtoRLInterconnectionServiceTest">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.RLtoRLInterconnectionServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="mdfResirelated test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.BuildingMDFRoomToResidentialPremiseConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="NonResirelated test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.NonResidentialEndUserConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="CoLocationSupplementaryCoolingServiceTest">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.CoLocationSupplementaryCoolingServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="MdfNonResi test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.BuildingMDFRoomToNonResidentialPremiseConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="fttbtodp test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.FttbToDpConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="patching service test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.PatchingServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="nbap-connection test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.NBAPConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="nbap- Dpconnection test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.COToNBADPConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="Search test">
+        <classes>
+            <class name="com.amdocs.nlt.test.SearchPageTest"/>
+        </classes>
+    </test>
+
+    <test name="NBAP DP to NBAP TP Connection test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.NBAPDPtoNBAPTPConnectionTest"/>
+        </classes>
+    </test>
+
+    <test name="TechnologyChangeTest">
+        <classes>
+            <class name="com.amdocs.nlt.test.TechnologyChangeTest"/>
+        </classes>
+    </test>
+
+    <test name="ManageTPTest">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.ManageTPTest"/>
+        </classes>
+    </test>
+
+    <test name="ManageTpByAddressTest">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.ManageTpByAddressTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP by CoOrdinateSystem Service Test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.RequestForManageTPbyCoOrdinateSystemServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Enhanced Fibre takeover test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.EnhancedFibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <!--Splitted the test class as it is taking more time-->
+    <test name="Accept or reject fibre takeover test Residential">
+        <classes>
+            <class name="com.amdocs.nlt.test.AcceptRejectFibreTakeover">
+            <methods>
+                <include name="testAcceptFibreTakeoverService_Accept_Pending_Resi" />
+                <include name="testAcceptFibreTakeoverService_Accept_Approved_Resi" />
+                <include name="testAcceptFibreTakeoverService_Accept_NotRequested_Resi" />
+                <include name="testAcceptFibreTakeoverService_Reject_DiffSubscriber_Resi" />
+                <include name="testAcceptFibreTakeoverService_Reject_ServiceValid_Resi" />
+                <include name="testAcceptFibreTakeoverService_Reject_Others_Resi" />
+            </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Accept or reject fibre takeover test Non-Residential">
+        <classes>
+            <class name="com.amdocs.nlt.test.AcceptRejectFibreTakeover">
+                <methods>
+                    <include name="testAcceptFibreTakeoverService_Accept_Pending_nonResi" />
+                    <include name="testAcceptFibreTakeoverService_Accept_Approved_nonResi" />
+                    <include name="testAcceptFibreTakeoverService_Accept_NotRequested_nonResi" />
+                    <include name="testAcceptFibreTakeoverService_Reject_DiffSubscriber_nonResi" />
+                    <include name="testAcceptFibreTakeoverService_Reject_ServiceValid_nonResi" />
+                    <include name="testAcceptFibreTakeoverService_Reject_Others_nonResi" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Fibre takeover service test">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.FibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Resi relocate  test">
+        <classes>
+            <class name="com.amdocs.nlt.relocationtest.ResidentailEndUserRelocationTest"/>
+        </classes>
+    </test>
+
+    <test name="SearchPageByPostalCodeTest">
+        <classes>
+            <class name="com.amdocs.nlt.test.SearchPageByPostalCodeTest"/>
+        </classes>
+    </test>
+
+    <test name="MdftoFttbConnectioTest">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.MdftoFttbConnectioTest"/>
+        </classes>
+    </test>
+
+    <test name="Home Passed First Free Test_Schedule1">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.HomePassedFirstFreeTest">
+                <methods>
+                    <include name="homePassed_YES_Schedule1"/>
+                    <include name="homePassed_NO_Schedule1"/>
+                    <include name="homePassed_Invalid_Schedule1"/>
+                    <include name="homePassed_YES_Schedule1_Reclassify"/>
+                    <include name="homePassed_NO_Schedule1_Reclassify"/>
+                    <include name="homePassed_Invalid_Schedule1_Reclassify"/>
+                    <include name="homePassed_YES_Schedule1_Relocation"/>
+                    <include name="homePassed_NO_Schedule1_Relocation"/>
+                    <include name="homePassed_Invalid_Schedule1_Relocation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Home Passed First Free Test_Schedule8">
+        <classes>
+            <class name="com.amdocs.nlt.createTest.HomePassedFirstFreeTest">
+                <methods>
+                    <include name="homePassed_YES_Schedule8"/>
+                    <include name="homePassed_NO_Schedule8"/>
+                    <include name="homePassed_Invalid_Schedule8"/>
+                    <include name="homePassed_YES_Schedule8_Reclassify"/>
+                    <include name="homePassed_NO_Schedule8_Reclassify"/>
+                    <include name="homePassed_Invalid_Schedule8_Reclassify"/>
+                    <include name="homePassed_YES_Schedule8_Relocation"/>
+                    <include name="homePassed_NO_Schedule8_Relocation"/>
+                    <include name="homePassed_Invalid_Schedule8_Relocation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="BuildingMDFRoomToResidentialPremiseConnectionRelocationTest">
+        <classes>
+            <class name="com.amdocs.nlt.relocationtest.BuildingMDFRoomToResidentialPremiseConnectionRelocationTest"/>
+        </classes>
+    </test>
+
+    <!--**************************************************************************-->
+    <!--Terminate Cancel Tests-->
+    <!--**************************************************************************-->
+    <test name="BuildingMDFRoomToResidentialConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.BuildingMDFRoomToResidentialConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="BuildingMDFRoomToNonResidentialPremiseConnectionPageTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.BuildingMDFRoomToNonResidentialPremiseConnectionPageTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="BuildingMDFRoomToFTTBNodeConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.BuildingMDFRoomToFTTBNodeConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToBuildingMdfConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.CoToBuildingMdfConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToCoConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.CoToCoConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToNBAPDPConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.CoToNBAPDPConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="FTTBNodeToDPConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.FTTBNodeToDPConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="NBAPConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.NBAPConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="NBAPDPtoNBAPTPConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.NBAPDPtoNBAPTPConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="NonResidentailEndUserConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.NonResidentailEndUserConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <test name="ResidentailEndUserConnectionTerminateCancelTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateCancel.ResidentailEndUserConnectionTerminateCancelTest"/>
+        </classes>
+    </test>
+
+    <!--**************************************************************************-->
+    <!--Terminate Tests-->
+    <!--**************************************************************************-->
+    <test name="TerminatetestMDFtoFTTBNode">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.BuildingMDFRoomToFTTBNodeConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestMDFtoNonResi">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.BuildingMDFRoomToNonResidentialPremiseConnectionPageTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestMDFtoResi">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.BuildingMDFRoomToResidentialConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestCoToMDF">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.CoToBuildingMdfConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestCoToCo">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.CoToCoConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestCoToNBAPDP">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.CoToNBAPDPConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestFTTBNodeToDP">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.FTTBNodeToDPConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestNBAPConnection">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.NBAPConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestNBAPDPToNBAPTPConnection">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.NBAPDPtoNBAPTPConnectionTerminatelTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestNonResi">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.NonResidentailEndUserConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="TerminatetestResi">
+        <classes>
+            <class name="com.amdocs.nlt.terminatetest.ResidentailEndUserConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <!--**************************************************************************-->
+    <!--Terminate View Tests-->
+    <!--**************************************************************************-->
+    <test name="BuildingMDFRoomToFTTBNodeConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.BuildingMDFRoomToFTTBNodeConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="BuildingMDFRoomToNonResidentialPremiseConnectionPageTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.BuildingMDFRoomToNonResidentialPremiseConnectionPageTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="BuildingMDFRoomToResidentialConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.BuildingMDFRoomToResidentialConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToBuildingMdfConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.CoToBuildingMdfConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToCoConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.CoToCoConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToNBAPDPConnectionTerminateTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.CoToNBAPDPConnectionTerminateTest"/>
+        </classes>
+    </test>
+
+    <test name="FTTBNodeToDPConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.FTTBNodeToDPConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="NBAPConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.NBAPConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="NBAPDPtoNBAPTPConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.NBAPDPtoNBAPTPConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="NonResidentailEndUserConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.NonResidentailEndUserConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <test name="ResidentailEndUserConnectionTerminateViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.terminateviewtest.ResidentailEndUserConnectionTerminateViewTest"/>
+        </classes>
+    </test>
+
+    <!--**************************************************************************-->
+    <!--View Tests-->
+    <!--**************************************************************************-->
+    <test name="NBAP DP to NBAP TP Connection View test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.NBAPDPtoNBAPTPConnectionViewTest"/>
+        </classes>
+    </test>
+
+    <test name="NBAP view test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.NBAPConnectionViewTest"/>
+        </classes>
+    </test>
+
+    <test name="Co to CO view test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.CoToCoConnectionViewTest"/>
+        </classes>
+    </test>
+
+    <test name="Resi view test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.ResidentialEndUserConnectionViewPageTest"/>
+        </classes>
+    </test>
+
+    <test name="FTTBNodeToDPConnectionViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.FTTBNodeToDPConnectionViewTest"/>
+        </classes>
+    </test>
+
+    <test name="CoToBuildingMDFConnectionViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.CoToBuildingMDFConnectionViewTest"/>
+        </classes>
+    </test>
+
+    <test name="TechnologyChangeViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.TechnologyChangeViewTest"/>
+        </classes>
+    </test>
+
+    <test name="ManageTPViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.ManageTPViewTest"/>
+        </classes>
+    </test>
+
+    <test name="Enhanced Fibre takeover view test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.EnhancedFibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Fibre takeover service view test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.FibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage Tp By Adress View Test">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.ManageTpByAdressViewTest"/>
+        </classes>
+    </test>
+
+    <test name="UpdatedViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.UpdatedViewTest"/>
+        </classes>
+    </test>
+
+    <test name="FibreWithoutServiceTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.FibreWithoutServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="NonResidentailEndUserConnectionViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.NonResidentailEndUserConnectionViewTest"/>
+        </classes>
+    </test>
+
+    <test name="ResidentialRelocationServiceViewTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.ResidentialRelocationServiceViewTest"/>
+        </classes>
+    </test>
+
+    <test name="KIVSuccessTest">
+        <classes>
+            <class name="com.amdocs.nlt.viewtest.KIVSuccessTest"/>
+        </classes>
+    </test>
+
+    <!--<test name="Non-residential reclassify view test" >
+    <classes> <class name="com.amdocs.nlt.viewtest.NonResiReclassifyTest"> </class>
+    </classes> </test> -->
+
+    <!--**************************************************************************-->
+    <!--Amend View Tests-->
+    <!--**************************************************************************-->
+    <test name="Dark Fibre Amend View test">
+        <classes>
+            <class name="com.amdocs.nlt.viewAmendTest.FibreWithoutServiceAmendViewTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP by Address Amend View test">
+        <classes>
+            <class name="com.amdocs.nlt.viewAmendTest.ManageTPbyAddressAmendViewTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP RRR Amend View test">
+        <classes>
+            <class name="com.amdocs.nlt.viewAmendTest.ManageTPRRRAmendViewTest"/>
+        </classes>
+    </test>
+
+    <test name="Relocation 1 2 8 9 Amend View test">
+        <classes>
+            <class name="com.amdocs.nlt.viewAmendTest.RelocationAmendViewTest"/>
+        </classes>
+    </test>
+</suite>

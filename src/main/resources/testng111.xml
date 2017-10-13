@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose='1' parallel='tests' thread-count='80'>
+    <listeners>
+        <listener class-name="com.amdocs.nlt.listeners.TestListener"/>
+        <listener class-name="com.amdocs.nlt.listeners.CustomEmailableReport"/>
+        <listener class-name="com.amdocs.nlt.listeners.CustomEmailableReport2"/>
+        <!--<listener class-name="com.amdocs.nlt.listeners.EmailableReporter2"/>-->
+    </listeners>
+
+    <!--**************************************************************************-->
+    <!--Ament Tests-->
+    <!--**************************************************************************-->
+    <test name="Fibre takeover amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.FibreTakeoverServiceTest"/>
+        </classes>
+    </test>
+
+    <test name="Manage TP RRR amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.ManageTpRRRTest"/>
+        </classes>
+    </test>
+
+    <test name="Dark fibre amend test">
+        <classes>
+            <class name="com.amdocs.nlt.amendtest.FibreWithOutServiceTest"/>
+        </classes>
+    </test>
+
+
+</suite>

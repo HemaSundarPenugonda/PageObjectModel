@@ -1,0 +1,104 @@
+body {
+	padding: 10px;
+	margin: 10px;
+}
+
+.tc_Env {
+	font-weight: bold;
+	font-size: 14px;
+	font-style: normal;
+	color: black;
+}
+
+.tc_Env_Val {
+	font-weight: bold;
+	font-size: 14px;
+	font-style: normal;
+	color: blue;
+}
+
+.table_Heading {
+	font-weight: bold;
+	font-size: 14px;
+	font-style: normal;
+	color: black;
+}
+
+th {
+	font-weight: bold;
+	font-size: 14px;
+	font-style: normal;
+	color: black;
+	background-color: #f9f9f9;
+	height: 26px;
+	border: 1px solid #dddddd;
+	padding: 2px 5px 2px 5px;
+}
+
+td {
+	/*background-color: #FFF8C6;*/
+	font-weight: normal;
+	font-size: 12px;
+	font-style: normal;
+	color: black;
+	height: 26px;
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+.pass {
+	color: green;
+}
+
+.fail {
+	color: red;
+}
+
+.ignore {
+	color: grey;
+}
+
+.skip {
+	color: grey;
+}
+
+table {
+	border: 1px solid #dddddd /* #8E001D */;
+	border-collapse: collapse;
+	font-family: Arial;
+	width: '100%';
+}
+
+tr:nth-child(even) {
+	background-color: #f1f1f1;
+}
+
+div.singleAsssertionPass {
+	padding: 0px 0px 5px 10px;
+	border-left: 6px solid green;
+	background-color: lightgrey;
+	border-radius: 25px;
+}
+
+div.singleAsssertionFail {
+	padding: 0px 0px 5px 10px;
+	border-left: 6px solid red;
+	background-color: lightgrey;
+	border-radius: 25px;
+}
+
+div.singleAsssertionUnknown {
+	padding: 0px 0px 5px 10px;
+	border-left: 6px solid black;
+	background-color: lightgrey;
+	border-radius: 25px;
+}
+
+div.setUpScript, div.tearDownScript, div.customProperties, div.stepRequest,
+	div.stepResponse {
+	padding: 0px 0px 5px 10px;
+}
+
+span.propertyValue {
+	color: blue;
+}

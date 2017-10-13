@@ -1,0 +1,14 @@
+#ChromeDriver=C:/nlt/drivers/chromedriver
+ChromeDriver=/drivers/chromedriver
+firefoxDriver=/drivers/geckodriver
+URL=http://indlin4673:8082/login
+waitForSecondsHigh=60
+waitForSecondsMedium=40
+waitForSecondsLow=20
+nodeUrl=http://10.75.192.102:4444/wd/hub
+driver=
+#hostName=localhost
+hostName=arathore05v
+username=guest@nlt.com
+#username=gridcomm22
+password=Admin1

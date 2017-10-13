@@ -1,0 +1,422 @@
+##########################################################
+#Schedule 1 Home Reached
+schedule1.homereached.coveragestatus=Home Reached
+schedule1.homereached.postalcode=211111
+schedule1.homereached.unitnumber=11-111
+schedule1.homereached.buildingnumber=Option2
+schedule1.homereached.buildingname=Express Plazza
+schedule1.homereached.streetname=2 Magazine Road
+schedule1.homereached.buildingtype=HDB
+schedule1.homereached.copiftype=test
+##########################################################
+#Schedule 1 Home Passed
+schedule1.homepassed.techCoveragestatus=HomePassed
+schedule1.homepassed.coveragestatus=Home Passed
+schedule1.homepassed.postalcode=111111
+schedule1.homepassed.unitnumber=11-111
+schedule1.homepassed.buildingnumber=Option2
+schedule1.homepassed.buildingname=Express Plazza
+schedule1.homepassed.streetname=2 Magazine Road
+schedule1.homepassed.buildingtype=HDB
+schedule1.homepassed.copiftype=test
+##########################################################
+#Schedule 1 Home Passed First Free OLD
+schedule1.homepassedfirstfreeold.coveragestatus=
+schedule1.homepassedfirstfreeold.postalcode=120011
+schedule1.homepassedfirstfreeold.unitnumber=11-111
+schedule1.homepassedfirstfreeold.buildingnumber=Option2
+schedule1.homepassedfirstfreeold.buildingname=Express Plazza
+schedule1.homepassedfirstfreeold.streetname=2 Magazine Road
+schedule1.homepassedfirstfreeold.buildingtype=HDB
+schedule1.homepassedfirstfreeold.copiftype=test
+##########################################################
+#Schedule 1 Home Passed First Free YES
+schedule1.homepassedfirstfree.coveragestatus=
+schedule1.homepassedfirstfree.postalcode=121111
+schedule1.homepassedfirstfree.unitnumber=11-111
+schedule1.homepassedfirstfree.buildingnumber=Option2
+schedule1.homepassedfirstfree.buildingname=Express Plazza
+schedule1.homepassedfirstfree.streetname=2 Magazine Road
+schedule1.homepassedfirstfree.buildingtype=HDB
+schedule1.homepassedfirstfree.copiftype=test
+##########################################################
+#Schedule 1 Home Passed First Free NO
+schedule1.homepassedfirstfreeno.coveragestatus=
+schedule1.homepassedfirstfreeno.postalcode=120000
+schedule1.homepassedfirstfreeno.unitnumber=11-111
+schedule1.homepassedfirstfreeno.buildingnumber=Option2
+schedule1.homepassedfirstfreeno.buildingname=Express Plazza
+schedule1.homepassedfirstfreeno.streetname=2 Magazine Road
+schedule1.homepassedfirstfreeno.buildingtype=HDB
+schedule1.homepassedfirstfreeno.copiftype=test
+##########################################################
+#Schedule 1 Home Passed First Free INVALID
+schedule1.homepassedfirstfreeinvalid.coveragestatus=
+schedule1.homepassedfirstfreeinvalid.postalcode=120001
+schedule1.homepassedfirstfreeinvalid.unitnumber=11-111
+schedule1.homepassedfirstfreeinvalid.buildingnumber=Option2
+schedule1.homepassedfirstfreeinvalid.buildingname=Express Plazza
+schedule1.homepassedfirstfreeinvalid.streetname=2 Magazine Road
+schedule1.homepassedfirstfreeinvalid.buildingtype=HDB
+schedule1.homepassedfirstfreeinvalid.copiftype=test
+##########################################################
+#Schedule 1 TP Installation
+schedule1.installation.techCoveragestatus=Req-Second-TP-Installation
+schedule1.installation.coveragestatus=Second TP Required
+schedule1.installation.postalcode=321111
+schedule1.installation.unitnumber=11-111
+schedule1.installation.buildingnumber=Option2
+schedule1.installation.buildingname=Express Plazza
+schedule1.installation.streetname=2 Magazine Road
+schedule1.installation.buildingtype=HDB
+schedule1.installation.copiftype=test
+##########################################################
+#Schedule 1 In Service
+schedule1.inservice.techCoveragestatus=In-Service
+schedule1.inservice.coveragestatus=TP In-Service
+schedule1.inservice.postalcode=311111
+schedule1.inservice.unitnumber=11-111
+schedule1.inservice.buildingnumber=Option2
+schedule1.inservice.buildingname=Express Plazza
+schedule1.inservice.streetname=2 Magazine Road
+schedule1.inservice.buildingtype=HDB
+schedule1.inservice.copiftype=test
+##########################################################
+#Schedule 1 Reconnect
+schedule1.reconnect.coveragestatus=Reconnect
+schedule1.reconnect.postalcode=421111
+schedule1.reconnect.unitnumber=11-111
+schedule1.reconnect.buildingnumber=Option2
+schedule1.reconnect.buildingname=Express Plazza
+schedule1.reconnect.streetname=2 Magazine Road
+schedule1.reconnect.buildingtype=HDB
+schedule1.reconnect.copiftype=test
+##########################################################
+#Schedule 1 Port Not Available
+schedule1.noportavail.coveragestatus=
+schedule1.noportavail.postalcode=666666
+schedule1.noportavail.unitnumber=11-111
+schedule1.noportavail.buildingnumber=Option2
+schedule1.noportavail.buildingname=Express Plazza
+schedule1.noportavail.streetname=2 Magazine Road
+schedule1.noportavail.buildingtype=HDB
+schedule1.noportavail.copiftype=test
+##########################################################
+#Schedule 1 No FRC Readiness
+schedule1.frc.techCoveragestatus=FRC
+schedule1.frc.coveragestatus=
+schedule1.frc.postalcode=551111
+schedule1.frc.unitnumber=11-111
+schedule1.frc.buildingnumber=Option2
+schedule1.frc.buildingname=Express Plazza
+schedule1.frc.streetname=2 Magazine Road
+schedule1.frc.buildingtype=HDB
+schedule1.frc.copiftype=test
+##########################################################
+#Schedule 1 Address not found
+schedule1.uso.techCoveragestatus=USO
+schedule1.uso.coveragestatus=
+schedule1.uso.postalcode=561111
+schedule1.uso.unitnumber=11-111
+schedule1.uso.buildingnumber=Option2
+schedule1.uso.buildingname=Express Plazza
+schedule1.uso.streetname=2 Magazine Road
+schedule1.uso.buildingtype=HDB
+schedule1.uso.copiftype=test
+##########################################################
+#Schedule 2 Address not found
+schedule2.uso.techCoveragestatus=USO
+schedule2.uso.coveragestatus=
+schedule2.uso.postalcode=561111
+schedule2.uso.unitnumber=11-111
+schedule2.uso.buildingnumber=Option2
+schedule2.uso.buildingname=Express Plazza
+schedule2.uso.streetname=2 Magazine Road
+schedule2.uso.buildingtype=HDB
+schedule2.uso.copiftype=test
+##########################################################
+#Schedule 8 Address not found
+schedule8.uso.techCoveragestatus=USO
+schedule8.uso.coveragestatus=
+schedule8.uso.postalcode=561111
+schedule8.uso.unitnumber=11-111
+schedule8.uso.buildingnumber=Option2
+schedule8.uso.buildingname=Express Plazza
+schedule8.uso.streetname=2 Magazine Road
+schedule8.uso.buildingtype=HDB
+schedule8.uso.copiftype=test
+##########################################################
+#Schedule 9 Address not found
+schedule9.uso.techCoveragestatus=USO
+schedule9.uso.coveragestatus=
+schedule9.uso.postalcode=561111
+schedule9.uso.unitnumber=11-111
+schedule9.uso.buildingnumber=Option2
+schedule9.uso.buildingname=Express Plazza
+schedule9.uso.streetname=2 Magazine Road
+schedule9.uso.buildingtype=HDB
+schedule9.uso.copiftype=test
+##########################################################
+#Schedule 1 Reclassify Home passed first free
+reclassify.schedule1.homepassedfirstfree.techCoveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfree.coveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfree.postalcode=571111
+reclassify.schedule1.homepassedfirstfree.unitnumber=11-111
+reclassify.schedule1.homepassedfirstfree.buildingnumber=Option2
+reclassify.schedule1.homepassedfirstfree.buildingname=Express Plazza
+reclassify.schedule1.homepassedfirstfree.streetname=2 Magazine Road
+reclassify.schedule1.homepassedfirstfree.buildingtype=HDB
+reclassify.schedule1.homepassedfirstfree.copiftype=test
+##########################################################
+#Schedule 1 Reclassify Home passed first free OLD
+reclassify.schedule1.homepassedfirstfreeold.techCoveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfreeold.coveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfreeold.postalcode=570011
+reclassify.schedule1.homepassedfirstfreeold.unitnumber=11-111
+reclassify.schedule1.homepassedfirstfreeold.buildingnumber=Option2
+reclassify.schedule1.homepassedfirstfreeold.buildingname=Express Plazza
+reclassify.schedule1.homepassedfirstfreeold.streetname=2 Magazine Road
+reclassify.schedule1.homepassedfirstfreeold.buildingtype=HDB
+reclassify.schedule1.homepassedfirstfreeold.copiftype=test
+##########################################################
+#Schedule 1 Reclassify Home passed first free NO
+reclassify.schedule1.homepassedfirstfreeno.techCoveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfreeno.coveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfreeno.postalcode=570000
+reclassify.schedule1.homepassedfirstfreeno.unitnumber=11-111
+reclassify.schedule1.homepassedfirstfreeno.buildingnumber=Option2
+reclassify.schedule1.homepassedfirstfreeno.buildingname=Express Plazza
+reclassify.schedule1.homepassedfirstfreeno.streetname=2 Magazine Road
+reclassify.schedule1.homepassedfirstfreeno.buildingtype=HDB
+reclassify.schedule1.homepassedfirstfreeno.copiftype=test
+##########################################################
+#Schedule 1 Reclassify Home passed first free Invalid
+reclassify.schedule1.homepassedfirstfreeinvalid.techCoveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfreeinvalid.coveragestatus=Reclassify
+reclassify.schedule1.homepassedfirstfreeinvalid.postalcode=570001
+reclassify.schedule1.homepassedfirstfreeinvalid.unitnumber=11-111
+reclassify.schedule1.homepassedfirstfreeinvalid.buildingnumber=Option2
+reclassify.schedule1.homepassedfirstfreeinvalid.buildingname=Express Plazza
+reclassify.schedule1.homepassedfirstfreeinvalid.streetname=2 Magazine Road
+reclassify.schedule1.homepassedfirstfreeinvalid.buildingtype=HDB
+reclassify.schedule1.homepassedfirstfreeinvalid.copiftype=test
+##########################################################
+#Schedule 1 Live Connection
+schedule1.liveconnection.coveragestatus=
+schedule1.liveconnection.postalcode=511111
+schedule1.liveconnection.unitnumber=11-111
+schedule1.liveconnection.buildingnumber=Option2
+schedule1.liveconnection.buildingname=Express Plazza
+schedule1.liveconnection.streetname=2 Magazine Road
+schedule1.liveconnection.buildingtype=HDB
+schedule1.liveconnection.copiftype=test
+##########################################################
+#Schedule 1 No Connection
+schedule1.noconnection.coveragestatus=
+schedule1.noconnection.postalcode=521111
+schedule1.noconnection.unitnumber=11-111
+schedule1.noconnection.buildingnumber=Option2
+schedule1.noconnection.buildingname=Express Plazza
+schedule1.noconnection.streetname=2 Magazine Road
+schedule1.noconnection.buildingtype=HDB
+schedule1.noconnection.copiftype=test
+##########################################################
+#Schedule 1 Failed
+schedule1.failed.coveragestatus=
+schedule1.failed.postalcode=531111
+schedule1.failed.unitnumber=11-111
+schedule1.failed.buildingnumber=Option2
+schedule1.failed.buildingname=Express Plazza
+schedule1.failed.streetname=2 Magazine Road
+schedule1.failed.buildingtype=HDB
+schedule1.failed.copiftype=test
+##########################################################
+#Schedule 2 Home Reached
+schedule2.buildingreached.coveragestatus=Building Reached
+schedule2.buildingreached.postalcode=111111
+schedule2.buildingreached.unitnumber=11-111
+schedule2.buildingreached.buildingnumber=Option2
+schedule2.buildingreached.buildingname=Express Plazza
+schedule2.buildingreached.streetname=2 Magazine Road
+schedule2.buildingreached.second.buildingnumber=Option9
+schedule2.buildingreached.second.buildingname=Costa Rica
+schedule2.buildingreached.second.streetname=3 Rica street
+
+##########################################################
+#Relocation Schedule 1 Home Passed First Free YES
+relocation.schedule1.homepassedfirstfree.coveragestatus=
+relocation.schedule1.homepassedfirstfree.postalcode=121111
+relocation.schedule1.homepassedfirstfree.unitnumber=11-111
+relocation.schedule1.homepassedfirstfree.buildingnumber=Option2
+relocation.schedule1.homepassedfirstfree.buildingname=Express Plazza
+relocation.schedule1.homepassedfirstfree.streetname=2 Magazine Road
+relocation.schedule1.homepassedfirstfree.buildingtype=HDB
+relocation.schedule1.homepassedfirstfree.copiftype=test
+##########################################################
+#Relocation Schedule 1 Home Passed First Free NO
+relocation.schedule1.homepassedfirstfreeno.coveragestatus=
+relocation.schedule1.homepassedfirstfreeno.postalcode=120000
+relocation.schedule1.homepassedfirstfreeno.unitnumber=11-111
+relocation.schedule1.homepassedfirstfreeno.buildingnumber=Option2
+relocation.schedule1.homepassedfirstfreeno.buildingname=Express Plazza
+relocation.schedule1.homepassedfirstfreeno.streetname=2 Magazine Road
+relocation.schedule1.homepassedfirstfreeno.buildingtype=HDB
+relocation.schedule1.homepassedfirstfreeno.copiftype=test
+##########################################################
+#Relocation Schedule 1 Home Passed First Free INVALIsD
+relocation.schedule1.homepassedfirstfreeinvalid.coveragestatus=
+relocation.schedule1.homepassedfirstfreeinvalid.postalcode=120001
+relocation.schedule1.homepassedfirstfreeinvalid.unitnumber=11-111
+relocation.schedule1.homepassedfirstfreeinvalid.buildingnumber=Option2
+relocation.schedule1.homepassedfirstfreeinvalid.buildingname=Express Plazza
+relocation.schedule1.homepassedfirstfreeinvalid.streetname=2 Magazine Road
+relocation.schedule1.homepassedfirstfreeinvalid.buildingtype=HDB
+relocation.schedule1.homepassedfirstfreeinvalid.copiftype=test
+##########################################################
+#Schedule 3 Covered
+schedule3.covered.coveragestatus=Covered
+schedule3.covered.coordinatex=1
+schedule3.covered.coordinatey=1
+schedule3.covered.height=1
+schedule3.covered.descriptionofaddress=Test Description of Address
+schedule3.covered.coid=AM
+schedule3.covered.centraloffice=AM:Ang Mo Kio Telephone Exchange:25 Ang Mo Kio Avenue 1:569969
+schedule3.covered.agboxidentifier=11111111
+##########################################################
+#Schedule 3 Not Covered
+schedule3.notcovered.coveragestatus=Not Covered
+schedule3.notcovered.coordinatex=2
+schedule3.notcovered.coordinatey=2
+schedule3.notcovered.height=2
+schedule3.notcovered.descriptionofaddress=Test Description of Address
+schedule3.notcovered.coid=AM
+schedule3.notcovered.centraloffice=AM:Ang Mo Kio Telephone Exchange:25 Ang Mo Kio Avenue 1:569969
+schedule3.notcovered.agboxidentifier=11111111
+##########################################################
+#Schedule 10 Covered
+schedule10.covered.coveragestatus=Covered
+schedule10.covered.coordinatex=1
+schedule10.covered.coordinatey=1
+schedule10.covered.height=1
+schedule10.covered.descriptionofaddress=Test Description of Address
+schedule10.covered.coid=AM
+schedule10.covered.centraloffice=AM:Ang Mo Kio Telephone Exchange:25 Ang Mo Kio Avenue 1:569969
+schedule10.covered.agboxidentifier=11111111
+##########################################################
+#Schedule 10 Not Covered
+schedule10.notcovered.coveragestatus=Not Covered
+schedule10.notcovered.coordinatex=2
+schedule10.notcovered.coordinatey=2
+schedule10.notcovered.height=2
+schedule10.notcovered.descriptionofaddress=Test Description of Address
+schedule10.notcovered.coid=AM
+schedule10.notcovered.centraloffice=AM:Ang Mo Kio Telephone Exchange:25 Ang Mo Kio Avenue 1:569969
+schedule10.notcovered.agboxidentifier=11111111
+schedule10.notcovered.errormessage=Co-ordinates provided are outside of Singapore
+
+schedule11.sechedule10ori=101010
+
+##########################################################
+#Schedule 8 Home Passed
+schedule8.homepassed.techCoveragestatus=HomePassed
+schedule8.homepassed.coveragestatus=Home Passed
+schedule8.homepassed.postalcode=111111
+schedule8.homepassed.unitnumber=11-111
+schedule8.homepassed.buildingnumber=Option2
+schedule8.homepassed.buildingname=Express Plazza
+schedule8.homepassed.streetname=2 Magazine Road
+schedule8.homepassed.buildingtype=HDB
+schedule8.homepassed.copiftype=test
+##########################################################
+#Schedule 8 Home Passed First Free YES
+schedule8.homepassedfirstfree.coveragestatus=
+schedule8.homepassedfirstfree.postalcode=121111
+schedule8.homepassedfirstfree.unitnumber=11-111
+schedule8.homepassedfirstfree.buildingnumber=Option2
+schedule8.homepassedfirstfree.buildingname=Express Plazza
+schedule8.homepassedfirstfree.streetname=2 Magazine Road
+schedule8.homepassedfirstfree.buildingtype=HDB
+schedule8.homepassedfirstfree.copiftype=test
+##########################################################
+#Schedule 8 Home Passed First Free NO
+schedule8.homepassedfirstfreeno.coveragestatus=
+schedule8.homepassedfirstfreeno.postalcode=120000
+schedule8.homepassedfirstfreeno.unitnumber=11-111
+schedule8.homepassedfirstfreeno.buildingnumber=Option2
+schedule8.homepassedfirstfreeno.buildingname=Express Plazza
+schedule8.homepassedfirstfreeno.streetname=2 Magazine Road
+schedule8.homepassedfirstfreeno.buildingtype=HDB
+schedule8.homepassedfirstfreeno.copiftype=test
+##########################################################
+#Schedule 8 Home Passed First Free INVALID
+schedule8.homepassedfirstfreeinvalid.coveragestatus=
+schedule8.homepassedfirstfreeinvalid.postalcode=120001
+schedule8.homepassedfirstfreeinvalid.unitnumber=11-111
+schedule8.homepassedfirstfreeinvalid.buildingnumber=Option2
+schedule8.homepassedfirstfreeinvalid.buildingname=Express Plazza
+schedule8.homepassedfirstfreeinvalid.streetname=2 Magazine Road
+schedule8.homepassedfirstfreeinvalid.buildingtype=HDB
+schedule8.homepassedfirstfreeinvalid.copiftype=test
+##########################################################
+#Schedule 8 Reclassify
+reclassify.schedule8.homepassedfirstfree.techCoveragestatus=Reclassify
+reclassify.schedule8.homepassedfirstfree.coveragestatus=Reclassify
+reclassify.schedule8.homepassedfirstfree.postalcode=571111
+reclassify.schedule8.homepassedfirstfree.unitnumber=11-111
+reclassify.schedule8.homepassedfirstfree.buildingnumber=Option2
+reclassify.schedule8.homepassedfirstfree.buildingname=Express Plazza
+reclassify.schedule8.homepassedfirstfree.streetname=2 Magazine Road
+reclassify.schedule8.homepassedfirstfree.buildingtype=HDB
+reclassify.schedule8.homepassedfirstfree.copiftype=test
+##########################################################
+#Schedule 8 Reclassify
+reclassify.schedule8.homepassedfirstfreeno.techCoveragestatus=Reclassify
+reclassify.schedule8.homepassedfirstfreeno.coveragestatus=Reclassify
+reclassify.schedule8.homepassedfirstfreeno.postalcode=570000
+reclassify.schedule8.homepassedfirstfreeno.unitnumber=11-111
+reclassify.schedule8.homepassedfirstfreeno.buildingnumber=Option2
+reclassify.schedule8.homepassedfirstfreeno.buildingname=Express Plazza
+reclassify.schedule8.homepassedfirstfreeno.streetname=2 Magazine Road
+reclassify.schedule8.homepassedfirstfreeno.buildingtype=HDB
+reclassify.schedule8.homepassedfirstfreeno.copiftype=test
+##########################################################
+#Schedule 8 Reclassify
+reclassify.schedule8.homepassedfirstfreeinvalid.techCoveragestatus=Reclassify
+reclassify.schedule8.homepassedfirstfreeinvalid.coveragestatus=Reclassify
+reclassify.schedule8.homepassedfirstfreeinvalid.postalcode=570001
+reclassify.schedule8.homepassedfirstfreeinvalid.unitnumber=11-111
+reclassify.schedule8.homepassedfirstfreeinvalid.buildingnumber=Option2
+reclassify.schedule8.homepassedfirstfreeinvalid.buildingname=Express Plazza
+reclassify.schedule8.homepassedfirstfreeinvalid.streetname=2 Magazine Road
+reclassify.schedule8.homepassedfirstfreeinvalid.buildingtype=HDB
+reclassify.schedule8.homepassedfirstfreeinvalid.copiftype=test
+##########################################################
+#Relocation Schedule 8 Home Passed First Free YES
+relocation.schedule8.homepassedfirstfree.coveragestatus=
+relocation.schedule8.homepassedfirstfree.postalcode=121111
+relocation.schedule8.homepassedfirstfree.unitnumber=11-111
+relocation.schedule8.homepassedfirstfree.buildingnumber=Option2
+relocation.schedule8.homepassedfirstfree.buildingname=Express Plazza
+relocation.schedule8.homepassedfirstfree.streetname=2 Magazine Road
+relocation.schedule8.homepassedfirstfree.buildingtype=HDB
+relocation.schedule8.homepassedfirstfree.copiftype=test
+##########################################################
+#Relocation Schedule 8 Home Passed First Free NO
+relocation.schedule8.homepassedfirstfreeno.coveragestatus=
+relocation.schedule8.homepassedfirstfreeno.postalcode=120000
+relocation.schedule8.homepassedfirstfreeno.unitnumber=11-111
+relocation.schedule8.homepassedfirstfreeno.buildingnumber=Option2
+relocation.schedule8.homepassedfirstfreeno.buildingname=Express Plazza
+relocation.schedule8.homepassedfirstfreeno.streetname=2 Magazine Road
+relocation.schedule8.homepassedfirstfreeno.buildingtype=HDB
+relocation.schedule8.homepassedfirstfreeno.copiftype=test
+##########################################################
+#Relocation Schedule 8 Home Passed First Free INVALIsD
+relocation.schedule8.homepassedfirstfreeinvalid.coveragestatus=
+relocation.schedule8.homepassedfirstfreeinvalid.postalcode=120001
+relocation.schedule8.homepassedfirstfreeinvalid.unitnumber=11-111
+relocation.schedule8.homepassedfirstfreeinvalid.buildingnumber=Option2
+relocation.schedule8.homepassedfirstfreeinvalid.buildingname=Express Plazza
+relocation.schedule8.homepassedfirstfreeinvalid.streetname=2 Magazine Road
+relocation.schedule8.homepassedfirstfreeinvalid.buildingtype=HDB
+relocation.schedule8.homepassedfirstfreeinvalid.copiftype=test
