@@ -29,6 +29,7 @@ public class TestListener implements ITestListener {
             str = timeTaken + " s";
         }
         System.out.println("Method " + result.getName() + " completed executing : "+ str);
+        Reporter.log("Method " + result.getName() + " completed executing : "+ str);
     }
 
     @Override

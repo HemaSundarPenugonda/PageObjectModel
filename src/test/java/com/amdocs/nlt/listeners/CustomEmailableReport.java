@@ -111,8 +111,9 @@ public class CustomEmailableReport implements IReporter {
             rowTemplate = rowTemplate.replace("${TimeTakenForMethod}", currentRow.getTestMethodDuration());
             String exceptionPopup = "";
             String screenShotLink = "";
-            if (currentRow.getTestMethodStatus() == Status.FAIL) {
                 exceptionPopup = prepareStackTracePopupHtml(currentRow);
+            if (currentRow.getTestMethodStatus() == Status.FAIL) {
+//                exceptionPopup = prepareStackTracePopupHtml(currentRow);
                 screenShotLink = "<a href='screenshots/" + currentRow.getTestMethodUniqueName() + ".png'>screenshot</a>";
             }
             rowTemplate = rowTemplate.replace("${ExceptionPopUp}", exceptionPopup);

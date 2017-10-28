@@ -5,6 +5,9 @@ import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.testng.ISuiteResult;
 import org.testng.ITestResult;
+import org.testng.Reporter;
+
+import java.util.List;
 
 public class CustomTestMethodResult {
     private ITestResult currentTestMethodResult;
@@ -57,7 +60,7 @@ public class CustomTestMethodResult {
     }
 
     public String getExceptionName() {
-        String exceptionName = "";
+        String exceptionName = "SuccessLogs";
         if (getTestMethodStatus() == Status.FAIL) {
             exceptionName = currentTestMethodResult.getThrowable().getClass().getName();
         }
@@ -66,8 +69,13 @@ public class CustomTestMethodResult {
 
     public String getStackTrace() {
         String stackTrace = "";
+        List<String> reporterLogs = Reporter.getOutput(currentTestMethodResult);
+        for (String str : reporterLogs) {
+            stackTrace = StringEscapeUtils.escapeHtml(stackTrace + str + "\n");
+        }
+
         if (getTestMethodStatus() == Status.FAIL) {
-            stackTrace = StringEscapeUtils.escapeHtml(ExceptionUtils.getFullStackTrace(currentTestMethodResult.getThrowable()));
+            stackTrace = stackTrace + "\n" + StringEscapeUtils.escapeHtml(ExceptionUtils.getFullStackTrace(currentTestMethodResult.getThrowable()));
         }
         return stackTrace;
     }
